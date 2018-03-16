@@ -13,10 +13,10 @@ This project provides an apparatus for publicly serving a development app for re
 6. Add whitelisted emails to the devTeam or BetaTeam whitelist.
       Whitelisting is configurable in `src/config/constants` by placing the whitelisted email address inside either the devTeam array or the betaTeam array.  
 7. Insert your own code at the respective roots: 
-      Dev pages start at `src/components/ProtectedAppDevPage/ProtectedAppDevPage`.
-      Beta pages start at `src/components/ProtectedAppBetaPage/ProtectedAppBetaPage`.
-      Unknown authenticated visitor pages start at `src/components/ProtectedAppVisitorPage/ProtectedAppVisitorPage`.
-      Public pages are at `src/components/UnprotectedApp/UnprotectedApp`.
+      * Dev pages start at `src/components/ProtectedAppDevPage/ProtectedAppDevPage`.
+      * Beta pages start at `src/components/ProtectedAppBetaPage/ProtectedAppBetaPage`.
+      * Unknown authenticated visitor pages start at `src/components/ProtectedAppVisitorPage/ProtectedAppVisitorPage`.
+      * Public pages are at `src/components/UnprotectedApp/UnprotectedApp`.
 8. Run `yarn start` or `npm start`.
 
 
